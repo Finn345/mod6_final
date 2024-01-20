@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="main.js" defer></script>
+<title>My Favorite paintings</title>
+</head>
+<body>
+<div class="container" style="background-color: black;">
+    <h1 class="justify-content-center" style="color: white;">Welcome to My Favorite Paintings!</h1>
+</div>
+<div class="container justify-content-center">
+    <figure class="figure__item figure__item--1" id="fig1" onclick="event.stopPropagation(); getArt(this.id, event)" style="float: right;">
+        <img src="images/the_fall_of_the_giants.jpg" alt="The Fall of the Giants" class="img" style="width: 700px; height: 800px" >
+        <figcaption>A Mighty Fall</figcaption>
+    </figure>
+    <figure class="figure__item figure__item--2" id="fig2" onclick="event.stopPropagation(); getArt(this.id, event)">
+        <img src="images/the_battle_around_shield_and_lance.jpg" alt="The Battle around the Shield and Lance" class="img">
+        <figcaption>A Fierce Battle Rages On</figcaption>
+    </figure>
+    <figure class="figure__item figure__item--3" id="fig3" onclick="event.stopPropagation(); getArt(this.id, event)">
+        <img src="images/st_jerome_praying.jpg" alt="St. Jerome Praying" class="img" style="width: 650px; height: 800px">
+        <figcaption>A Man Looking For Forgiveness</figcaption>
+    </figure>
+    <figure class="figure__item figure__item--4" id="fig4" onclick="event.stopPropagation(); getArt(this.id, event)">
+        <img src="images/anne_of_austria.jpg" alt="Anne of Austria, Queen of France" class="img" style="width: 600px; height: 700px">
+        <figcaption>Royal Looks</figcaption>
+    </figure>
+    <figure class="figure__item figure__item--5" id="fig5" onclick="event.stopPropagation(); getArt(this.id, event)">
+        <img src="images/portrait_head_of_a_woman.jpg" alt="Portrait Head of a Woman" class="img" style="width: 600px;">
+        <figcaption>A Woman Sealed in Time</figcaption>
+    </figure>
+</div>
+<footer style="font-size: 20px;">Images from Art Institute of Chicago
+    API from Art Institute of Chicago
+    Webpage Developed 2024 Kieran Larson
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!--Painting Names: 
+    1. The Battle around the Shield and Lance
+    2. St. Jerome Praying
+    3. The Fall of the Giants
+    4. Anne of Austria, Queen of France
+    5. Portrait Head of a Woman-->
